@@ -1,0 +1,1 @@
+$('body').click(function (){    $modal = $('#modals-videos .modal');    $vid = $('#modals-videos .modal .modal-dialog .modal-content .modal-body iframe');    if ($modal.hasClass('show')){        $vid.attr('src', $vid.attr('src').replace("mute=0", "mute=1"));    }else{        $vid.attr('src', $vid.attr('src').replace("mute=1", "mute=0"));    }})

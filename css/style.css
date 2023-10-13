@@ -1,0 +1,132 @@
+:root{
+    --bg-btn:#E1CCB5;
+    --green-color:#33D1CC;
+    --orang-color:#FF3150;
+    --yellow-color:#FFC400;
+    --section-color:#F9F2EC;
+}
+body{
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    direction: rtl;
+    font-family: myfont2;
+    background-color:#F7F7F2 ;
+   
+}
+@font-face {
+    font-family:myfont ;
+    src: url(/css/HONORSansArabicUI-R.ttf);
+}
+@font-face {
+    font-family: myfont2;
+    src: url(/css/ElMessiri-VariableFont_wght.ttf);
+}
+.navbar{
+    direction: ltr;
+}
+.navbar-brand img{
+   width:200px;
+}
+.nav-item .nav-link{
+    color:black;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.carousel-item{
+   height:450px;
+}
+.header-details{
+    background-image: url(/images/ae2b9c1f6d16a27e49a8c0fc0e7c1a19.jpg);
+    background-size: contain;
+}
+.header-details h2{
+    line-height: 1.6;
+}
+.marriage-sec{
+    margin:50px 0;
+    text-align: center;
+    background-color: var(--section-color);
+}
+.marriage-sec h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    padding:5px 0;
+    width:400px;
+    margin-right: 8em;
+    border-radius: 5px;
+    
+}
+.marri-details{
+    padding-top:50px;
+}
+.marri-details{
+   border-bottom: 1px solid #D9D0C6;
+}
+.marriage-sec img{
+    width:350px;
+    height: 400px;
+    box-shadow: 10px 10px 10px #888;
+}
+.marriage-sec ul {
+    list-style: none;
+}
+.marriage-sec ul li{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.footer-sec{
+    margin-top:50px;
+    background-color:#C9A37C ;
+    padding:20px 0;
+}
+.footer-sec h4{
+    margin-bottom: 55px;
+}
+.footer-sec p,
+.footer-item3 a{
+    color:#666 !important;
+}
+.footer-sec ul{
+    list-style: none;
+
+}
+
+.footer-sec ul li a,
+.footer-sec a{
+    color:black;
+    text-decoration: none;
+}
+.footer-item1,
+.footer-item2{
+    border-left: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-brands,
+.fa-regular{
+    font-size: 26px;
+}
+.fa-brands:hover,
+.fa-regular:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    color:#666;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand img{
+        width:150px;
+    }
+    .carousel-item{
+      height: auto;
+    }
+    .marriage-sec h2{
+        margin-right: 0;
+        font-size: 30px;
+    }
+}
