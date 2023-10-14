@@ -22,7 +22,7 @@ body{
 }
 @font-face {
     font-family: myfont2;
-    src: url(css/ElMessiri-VariableFont_wght.ttf);
+    src: url(./css/ElMessiri-VariableFont_wght.ttf);
 }
 .navbar{
     direction: ltr;
@@ -39,7 +39,7 @@ body{
    height:450px;
 }
 .header-details{
-    background-image: url(images/ae2b9c1f6d16a27e49a8c0fc0e7c1a19.jpg);
+    background-image: url(./images/ae2b9c1f6d16a27e49a8c0fc0e7c1a19.jpg);
     background-size: contain;
 }
 .header-details h2{
