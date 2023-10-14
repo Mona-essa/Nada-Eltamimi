@@ -18,11 +18,11 @@ body{
 }
 @font-face {
     font-family:myfont ;
-    src: url(/css/HONORSansArabicUI-R.ttf);
+    src: url(css/HONORSansArabicUI-R.ttf);
 }
 @font-face {
     font-family: myfont2;
-    src: url(/css/ElMessiri-VariableFont_wght.ttf);
+    src: url(css/ElMessiri-VariableFont_wght.ttf);
 }
 .navbar{
     direction: ltr;
